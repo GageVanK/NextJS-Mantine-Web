@@ -4,34 +4,40 @@ import { IconGauge, IconCookie, IconUser, IconMessage2, IconLock } from '@tabler
 export const MOCKDATA = [
   {
     icon: IconGauge,
-    title: 'Extreme performance',
+    title: 'Administrative Support',
     description:
-      'This dust is actually a powerful poison that will even make a pro wrestler sick, Regice cloaks itself with frigid air of -328 degrees Fahrenheit',
+      'Delegate your administrative tasks to our virtual assistants. From managing emails and calendars to organizing documents and conducting research, we handle the essential administrative duties, allowing you to focus on more strategic aspects of your business.',
   },
   {
     icon: IconUser,
-    title: 'Privacy focused',
+    title: 'Data Entry and Management',
     description:
-      'People say it can run at the same speed as lightning striking, Its icy body is so cold, it will not melt even if it is immersed in magma',
+      'Streamline your data entry and management processes with our skilled virtual assistants. We assist in organizing, updating, and maintaining your databases, ensuring data accuracy and accessibility for your business operations.',
   },
   {
     icon: IconCookie,
-    title: 'No third parties',
+    title: 'Content Writing and Editing',
     description:
-      'They’re popular, but they’re rare. Trainers who show them off recklessly may be targeted by thieves',
+      'Deliver compelling content with the help of our virtual assistants. We provide professional writing and editing services, crafting engaging blog posts, articles, website content, and more, tailored to your target audience and business objectives.',
   },
   {
     icon: IconLock,
-    title: 'Secure by default',
+    title: 'Social Media Management',
     description:
-      'Although it still can’t fly, its jumping power is outstanding, in Alola the mushrooms on Paras don’t grow up quite right',
+      'Maximize your online presence with our social media management services. Our virtual assistants handle content creation, scheduling posts, engaging with your audience, and monitoring analytics to help you build a strong social media presence.',
   },
   {
     icon: IconMessage2,
-    title: '24/7 Support',
+    title: 'Travel Planning and Coordination',
     description:
-      'Rapidash usually can be seen casually cantering in the fields and plains, Skitty is known to chase around after its own tail',
+      'Save time and reduce travel-related stress with our virtual assistants. We take care of travel arrangements, including booking flights, accommodations, and transportation, ensuring smooth and efficient business trips.',
   },
+  {
+    icon: IconMessage2,
+    title: 'Email and Calendar Management',
+    description:
+      'Stay organized and never miss an important appointment or deadline. Our virtual assistants efficiently manage your email inbox and calendar, categorizing and prioritizing messages, scheduling meetings, and sending reminders.',
+  }
 ];
 
 interface FeatureProps {

@@ -73,11 +73,10 @@ export function HeroHeader() {
         <div className={classes.inner}>
           <div className={classes.content}>
             <Title className={classes.title}>
-              A <span className={classes.highlight}>modern</span> React <br /> components library
+              Welcome to [Company Name]
             </Title>
             <Text color="dimmed" mt="md">
-              Build fully functional accessible web applications faster than ever – Mantine includes
-              more than 120 customizable components and hooks to cover you in any situation
+              Redefine Efficiency with Virtual Assistant Services. A Personalized Approach to Optimize Your Workflow.
             </Text>
 
             <List
@@ -91,26 +90,22 @@ export function HeroHeader() {
               }
             >
               <List.Item>
-                <b>TypeScript based</b> – build type safe applications, all components and hooks
-                export types
+                <b>Increased Productivity</b> – Enhance productivity in various areas such as administrative support, social media management, or content creation, ensuring tasks are completed efficiently.
               </List.Item>
               <List.Item>
-                <b>Free and open source</b> – all packages have MIT license, you can use Mantine in
-                any project
+                <b>Access to Diverse Skillsets</b> – Tap into our experience in areas such as customer support, graphic design, bookkeeping, or marketing, benefiting from their specialized knowledge without having to hire multiple full-time employees.
               </List.Item>
               <List.Item>
-                <b>No annoying focus ring</b> – focus ring will appear only when user navigates with
+                <b>Improved Work-Life Balance</b> – By offloading administrative burdens, you can devote more time to personal commitments, hobbies, and spending quality time with family and friends.
                 keyboard
               </List.Item>
             </List>
 
-            <Group mt={30}>
-              <Button radius="xl" size="md" className={classes.control}>
-                Get started
+            <Group  mt={30}>
+              <Button radius="xl" size="md" className={classes.control} fullWidth>
+                Get In Touch Now
               </Button>
-              <Button variant="default" radius="xl" size="md" className={classes.control}>
-                Source code
-              </Button>
+             
             </Group>
           </div>
           <Image src={heroImage.src} className={classes.image} />

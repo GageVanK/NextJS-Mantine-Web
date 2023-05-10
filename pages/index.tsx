@@ -3,7 +3,7 @@ import { ContactUsBox } from '../components/ContactUsBox';
 import { HeroHeader } from '../components/HeroHeader';
 import { FeatureSection } from '../components/FeatureSection';
 import { StatBox } from '../components/StatBox';
-
+import { FAQ } from '../components/FAQ';
 const useStyles = createStyles((theme) => ({
   root: {
     margin: '0 auto',
@@ -24,6 +24,8 @@ export default function HomePage() {
         <FeatureSection title={undefined} description={undefined} />
         <Space h="md" />
         <StatBox />
+        <Space h="md" />
+        <FAQ />
         <Space h="md" />
         <ContactUsBox />
         <Space h="md" />

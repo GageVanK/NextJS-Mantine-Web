@@ -5,6 +5,7 @@ import Head from 'next/head';
 import { MantineProvider, ColorScheme, ColorSchemeProvider } from '@mantine/core';
 import { Notifications } from '@mantine/notifications';
 import { HeaderResponsive } from '../components/HeaderResponsive';
+import { MainFooter } from '../components/MainFooter';
 
 export default function App(props: AppProps & { colorScheme: ColorScheme }) {
   const { Component, pageProps } = props;
@@ -26,8 +27,9 @@ export default function App(props: AppProps & { colorScheme: ColorScheme }) {
 
       <ColorSchemeProvider colorScheme={colorScheme} toggleColorScheme={toggleColorScheme}>
         <MantineProvider theme={{ colorScheme }} withGlobalStyles withNormalizeCSS>
-          <HeaderResponsive/>
+          <HeaderResponsive />
           <Component {...pageProps} />
+           <MainFooter />
           <Notifications />
         </MantineProvider>
       </ColorSchemeProvider>
