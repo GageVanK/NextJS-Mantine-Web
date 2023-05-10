@@ -147,7 +147,7 @@ export function HeaderResponsive() {
   ));
 
   return (
-    <Box pb={120}>
+    <Box>
       <Header height={60} px="md">
         <Group position="apart" sx={{ height: '100%' }}>
           Logo
@@ -155,12 +155,14 @@ export function HeaderResponsive() {
             <a href="#" className={classes.link}>
               Home
             </a>
-
             <a href="#" className={classes.link}>
-              Learn
+              Services
             </a>
             <a href="#" className={classes.link}>
-              Academy
+              About Us
+            </a>
+            <a href="#" className={classes.link}>
+              Contact Us
             </a>
           </Group>
           <Group className={classes.hiddenMobile}>
@@ -185,12 +187,14 @@ export function HeaderResponsive() {
           <a href="#" className={classes.link}>
             Home
           </a>
-
           <a href="#" className={classes.link}>
-            Learn
+            Services
           </a>
           <a href="#" className={classes.link}>
-            Academy
+            About Us
+          </a>
+          <a href="#" className={classes.link}>
+            Contact Us
           </a>
 
           <Divider my="sm" color={theme.colorScheme === 'dark' ? 'dark.5' : 'gray.1'} />
