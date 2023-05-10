@@ -33,28 +33,28 @@ export function FAQ() {
 
       <Accordion variant="separated">
         <Accordion.Item className={classes.item} value="reset-password">
-          <Accordion.Control>How can I reset my password?</Accordion.Control>
-          <Accordion.Panel>{placeholder}</Accordion.Panel>
+          <Accordion.Control> What is a virtual assistant?</Accordion.Control>
+          <Accordion.Panel>A virtual assistant (VA) is a professional who provides remote administrative, creative, or technical support to individuals, entrepreneurs, or businesses. They utilize technology to deliver their services, working remotely from their own location.</Accordion.Panel>
         </Accordion.Item>
 
         <Accordion.Item className={classes.item} value="another-account">
-          <Accordion.Control>Can I create more that one account?</Accordion.Control>
-          <Accordion.Panel>{placeholder}</Accordion.Panel>
+          <Accordion.Control>What are the payment arrangements for virtual assistant services?</Accordion.Control>
+          <Accordion.Panel>Payment arrangements for virtual assistant services can vary. Some virtual assistants charge an hourly rate, while others offer package deals or project-based pricing. The payment terms and methods should be discussed and agreed upon with the virtual assistant before starting the engagement.</Accordion.Panel>
         </Accordion.Item>
 
         <Accordion.Item className={classes.item} value="newsletter">
-          <Accordion.Control>How can I subscribe to monthly newsletter?</Accordion.Control>
-          <Accordion.Panel>{placeholder}</Accordion.Panel>
+          <Accordion.Control>What if I am not satisfied with the services provided by a virtual assistant?</Accordion.Control>
+          <Accordion.Panel>It's important to establish clear expectations and maintain open communication with your virtual assistant from the beginning. If any issues arise, address them promptly and discuss possible solutions. If the situation cannot be resolved, it may be necessary to explore other options, such as finding a new virtual assistant or revisiting the terms of the engagement.</Accordion.Panel>
         </Accordion.Item>
 
         <Accordion.Item className={classes.item} value="credit-card">
-          <Accordion.Control>Do you store credit card information securely?</Accordion.Control>
-          <Accordion.Panel>{placeholder}</Accordion.Panel>
+          <Accordion.Control> How do I communicate and collaborate with my virtual assistant?</Accordion.Control>
+          <Accordion.Panel>Communication and collaboration with a virtual assistant can be easily done through various online tools and platforms. You can use email, instant messaging apps, project management software, and video conferencing tools to stay connected, share files, and delegate tasks effectively.</Accordion.Panel>
         </Accordion.Item>
 
         <Accordion.Item className={classes.item} value="payment">
-          <Accordion.Control>What payment systems to you work with?</Accordion.Control>
-          <Accordion.Panel>{placeholder}</Accordion.Panel>
+          <Accordion.Control>Can virtual assistants handle industry-specific tasks and specialized projects?</Accordion.Control>
+          <Accordion.Panel>Yes, virtual assistants can often handle industry-specific tasks and specialized projects. Many virtual assistants have diverse skill sets and experience in various domains. It's important to communicate your specific requirements and assess their expertise during the hiring process to ensure they can meet your unique needs.</Accordion.Panel>
         </Accordion.Item>
       </Accordion>
     </Container>

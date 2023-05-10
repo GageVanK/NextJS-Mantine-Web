@@ -4,7 +4,7 @@ import { IconBrandTwitter, IconBrandYoutube, IconBrandInstagram } from '@tabler/
 
 export const data = [
   {
-        "title": "About",
+        "title": "About Us",
         "links": [
           { "label": "Features", "link": "#" },
           { "label": "Pricing", "link": "#" },
@@ -13,7 +13,7 @@ export const data = [
         ]
       },
       {
-        "title": "Project",
+        "title": "Services",
         "links": [
           { "label": "Contribute", "link": "#" },
           { "label": "Media assets", "link": "#" },
@@ -158,15 +158,13 @@ export function MainFooter() {
       <Container className={classes.inner}>
         <div className={classes.logo}>
           logo
-          <Text size="xs" color="dimmed" className={classes.description}>
-            Build fully functional accessible web applications faster than ever
-          </Text>
+          
         </div>
         <div className={classes.groups}>{groups}</div>
       </Container>
       <Container className={classes.afterFooter}>
         <Text color="dimmed" size="sm">
-          © 2020 mantine.dev. All rights reserved.
+          © 2023 [   ]. All rights reserved.
         </Text>
 
         <Group spacing={0} className={classes.social} position="right" noWrap>
