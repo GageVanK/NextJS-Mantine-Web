@@ -101,8 +101,8 @@ export function HeroHeader() {
               </List.Item>
             </List>
 
-            <Group fullWidth mt={30}>
-              <Button radius="xl" size="md" className={classes.control} span>
+            <Group  mt={30}>
+              <Button radius="xl" size="md" className={classes.control} fullWidth>
                 Get In Touch Now
               </Button>
              
