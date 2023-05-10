@@ -101,12 +101,11 @@ export function FeatureSection({ title, description, data = MOCKDATA }: Features
 
   return (
     <Container className={classes.wrapper}>
-      <Title className={classes.title}>Integrate effortlessly with any technology stack</Title>
+      <Title className={classes.title}>Our Services</Title>
 
       <Container size={560} p={0}>
         <Text size="sm" className={classes.description}>
-          Every once in a while, you’ll see a Golbat that’s missing some fangs. This happens when
-          hunger drives it to try biting a Steel-type Pokémon.
+          Expert Support Tailored to Your Unique Needs. Elevate Your Productivity with Our Virtual Assistant Solutions.
         </Text>
       </Container>
 
