@@ -9,7 +9,7 @@ export const data = [
           { "label": "Features", "link": "#" },
           { "label": "Pricing", "link": "#" },
           { "label": "Support", "link": "#" },
-          { "label": "Forums", "link": "#" }
+    
         ]
       },
       {
@@ -18,18 +18,10 @@ export const data = [
           { "label": "Contribute", "link": "#" },
           { "label": "Media assets", "link": "#" },
           { "label": "Changelog", "link": "#" },
-          { "label": "Releases", "link": "#" }
+         
         ]
       },
-      {
-        "title": "Community",
-        "links": [
-          { "label": "Join Discord", "link": "#" },
-          { "label": "Follow on Twitter", "link": "#" },
-          { "label": "Email newsletter", "link": "#" },
-          { "label": "GitHub discussions", "link": "#" }
-        ]
-      }
+      
 ];
 
 const useStyles = createStyles((theme) => ({
@@ -167,17 +159,7 @@ export function MainFooter() {
           © 2023 [   ]. All rights reserved.
         </Text>
 
-        <Group spacing={0} className={classes.social} position="right" noWrap>
-          <ActionIcon size="lg">
-            <IconBrandTwitter size="1.05rem" stroke={1.5} />
-          </ActionIcon>
-          <ActionIcon size="lg">
-            <IconBrandYoutube size="1.05rem" stroke={1.5} />
-          </ActionIcon>
-          <ActionIcon size="lg">
-            <IconBrandInstagram size="1.05rem" stroke={1.5} />
-          </ActionIcon>
-        </Group>
+        
       </Container>
     </footer>
   );
