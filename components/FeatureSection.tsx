@@ -119,7 +119,7 @@ export function FeatureSection({ title, description, data = MOCKDATA }: Features
           { maxWidth: 755, cols: 1, spacing: 'xl' },
         ]}
       >
-        <Slide cascade>
+        <Slide>
         {features}
         </Slide>
       </SimpleGrid>

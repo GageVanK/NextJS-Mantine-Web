@@ -20,6 +20,7 @@ export default function HomePage() {
   return (
     <>
       <Container className={classes.root}>
+        
         <HeroHeader />
         <Space h="md" />
         <StatBox />
