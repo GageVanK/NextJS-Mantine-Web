@@ -29,6 +29,7 @@
     "@mantine/notifications": "6.0.2",
     "@mantine/prism": "6.0.2",
     "@next/bundle-analyzer": "^13.1.6",
+    "@stahl.luke/react-reveal": "^1.2.3",
     "@tabler/icons": "^1.107.0",
     "@tabler/icons-react": "^2.4.0",
     "cookies-next": "^2.1.1",
@@ -36,6 +37,7 @@
     "embla-carousel-react": "^7.0.3",
     "next": "13.2.4",
     "react": "18.2.0",
+    "react-awesome-reveal": "^4.2.3",
     "react-dom": "18.2.0"
   },
   "devDependencies": {

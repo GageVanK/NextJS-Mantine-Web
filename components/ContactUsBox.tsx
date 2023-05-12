@@ -11,6 +11,7 @@ import {
 } from '@mantine/core';
 import { ContactIconsList } from './ContactIcons';
 import bg from '../assets/bg.svg';
+import {Fade} from "react-awesome-reveal";
 
 const useStyles = createStyles((theme) => {
   const BREAKPOINT = theme.fn.smallerThan('sm');
@@ -123,19 +124,25 @@ export function ContactUsBox() {
 
           <div className={classes.fields}>
             <SimpleGrid cols={2} breakpoints={[{ maxWidth: 'sm', cols: 1 }]}>
+              <Fade>
               <TextInput label="Your name" placeholder="Your name" />
               <TextInput label="Your email" placeholder="hello@mantine.dev" required />
+              </Fade>
             </SimpleGrid>
 
+ <Fade>
             <TextInput mt="md" label="Subject" placeholder="Subject" required />
 
+ </Fade>
+
+  <Fade>
             <Textarea
               mt="md"
               label="Your message"
               placeholder="Please include all relevant information"
               minRows={3}
             />
-
+ </Fade>
             <Group position="right" mt="md">
               <Button type="submit" className={classes.control}>
                 Send message
@@ -144,6 +151,7 @@ export function ContactUsBox() {
           </div>
         </form>
       </div>
+      
     </Paper>
   );
 }
