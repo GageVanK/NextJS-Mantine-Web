@@ -80,14 +80,20 @@ const useStyles = createStyles((theme) => ({
 export function StatBox() {
   const { classes } = useStyles();
   const stats = data.map((stat) => (
-    <Fade cascade>
+    
     <div key={stat.title} className={classes.stat}>
       
+      <Fade>
       <Text className={classes.count}>{stat.stats}</Text>
+      </Fade>
+      <Fade>
       <Text className={classes.title}>{stat.title}</Text>
+      </Fade>
+      <Fade>
       <Text className={classes.description}>{stat.description}</Text>
+      </Fade>
     </div>
-    </Fade>
+    
   ));
   return <div className={classes.root}>{stats}</div>;
 }
