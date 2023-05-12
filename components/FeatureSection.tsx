@@ -1,5 +1,5 @@
 import { ThemeIcon, Text, Title, Container, SimpleGrid, createStyles, rem } from '@mantine/core';
-import { IconGauge, IconCookie, IconUser, IconMessage2, IconLock } from '@tabler/icons-react';
+import { IconGauge, IconWallpaper, IconUser, IconMessage2, IconLock, IconPlane, IconDeviceLaptop } from '@tabler/icons-react';
 import {Slide} from "react-awesome-reveal";
 
 export const MOCKDATA = [
@@ -10,25 +10,25 @@ export const MOCKDATA = [
       'Delegate your administrative tasks to our virtual assistants. From managing emails and calendars to organizing documents and conducting research, we handle the essential administrative duties, allowing you to focus on more strategic aspects of your business.',
   },
   {
-    icon: IconUser,
+    icon: IconDeviceLaptop,
     title: 'Data Entry and Management',
     description:
       'Streamline your data entry and management processes with our skilled virtual assistants. We assist in organizing, updating, and maintaining your databases, ensuring data accuracy and accessibility for your business operations.',
   },
   {
-    icon: IconCookie,
+    icon: IconWallpaper,
     title: 'Content Writing and Editing',
     description:
       'Deliver compelling content with the help of our virtual assistants. We provide professional writing and editing services, crafting engaging blog posts, articles, website content, and more, tailored to your target audience and business objectives.',
   },
   {
-    icon: IconLock,
+    icon: IconUser,
     title: 'Social Media Management',
     description:
       'Maximize your online presence with our social media management services. Our virtual assistants handle content creation, scheduling posts, engaging with your audience, and monitoring analytics to help you build a strong social media presence.',
   },
   {
-    icon: IconMessage2,
+    icon: IconPlane,
     title: 'Travel Planning and Coordination',
     description:
       'Save time and reduce travel-related stress with our virtual assistants. We take care of travel arrangements, including booking flights, accommodations, and transportation, ensuring smooth and efficient business trips.',
