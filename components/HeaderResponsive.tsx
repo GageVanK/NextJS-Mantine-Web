@@ -181,7 +181,7 @@ export function HeaderResponsive() {
         onClose={closeDrawer}
         size="100%"
         padding="md"
-        title="Navigation"
+        title="Company Name"
         className={classes.hiddenDesktop}
         zIndex={1000000}
       >
