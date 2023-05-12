@@ -89,6 +89,11 @@ const useStyles = createStyles((theme) => ({
       display: 'none',
     },
   },
+  
+   root: {
+    position: "fixed",
+    zIndex: 1
+  },
 }));
 
 const mockdata = [
@@ -149,7 +154,7 @@ export function HeaderResponsive() {
 
   return (
     <Box>
-      <Header height={60} px="md">
+      <Header height={60} px="md" className={classes.root}>
         <Group position="apart" sx={{ height: '100%' }}>
           Logo
           <Group sx={{ height: '100%' }} spacing={0} className={classes.hiddenMobile}>

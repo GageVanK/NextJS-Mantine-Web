@@ -1,4 +1,5 @@
 import { createStyles, Text, rem } from '@mantine/core';
+import {Fade} from "react-awesome-reveal";
 
 export const data = [
   {
@@ -79,11 +80,14 @@ const useStyles = createStyles((theme) => ({
 export function StatBox() {
   const { classes } = useStyles();
   const stats = data.map((stat) => (
+    <Fade cascade>
     <div key={stat.title} className={classes.stat}>
+      
       <Text className={classes.count}>{stat.stats}</Text>
       <Text className={classes.title}>{stat.title}</Text>
       <Text className={classes.description}>{stat.description}</Text>
     </div>
+    </Fade>
   ));
   return <div className={classes.root}>{stats}</div>;
 }

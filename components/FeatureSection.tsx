@@ -1,5 +1,6 @@
 import { ThemeIcon, Text, Title, Container, SimpleGrid, createStyles, rem } from '@mantine/core';
 import { IconGauge, IconCookie, IconUser, IconMessage2, IconLock } from '@tabler/icons-react';
+import {Slide} from "react-awesome-reveal";
 
 export const MOCKDATA = [
   {
@@ -118,7 +119,9 @@ export function FeatureSection({ title, description, data = MOCKDATA }: Features
           { maxWidth: 755, cols: 1, spacing: 'xl' },
         ]}
       >
+        <Slide left cascade>
         {features}
+        </Slide>
       </SimpleGrid>
     </Container>
   );

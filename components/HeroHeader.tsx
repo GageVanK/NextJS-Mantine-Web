@@ -12,6 +12,7 @@ import {
 } from '@mantine/core';
 import { IconCheck } from '@tabler/icons-react';
 import heroImage from '../assets/heroImage.svg';
+import {Fade} from "react-awesome-reveal";
 
 const useStyles = createStyles((theme) => ({
   inner: {
@@ -78,7 +79,7 @@ export function HeroHeader() {
             <Text color="dimmed" mt="md">
               Redefine Efficiency with Virtual Assistant Services. A Personalized Approach to Optimize Your Workflow.
             </Text>
-
+<Fade cascade>
             <List
               mt={30}
               spacing="sm"
@@ -100,7 +101,7 @@ export function HeroHeader() {
                 keyboard
               </List.Item>
             </List>
-
+</Fade>
             <Group  mt={30}>
               <Button radius="xl" size="md" className={classes.control} fullWidth>
                 Get In Touch Now
