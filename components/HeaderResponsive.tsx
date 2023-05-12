@@ -29,6 +29,7 @@ import {
   IconChevronDown,
 } from '@tabler/icons-react';
 import { ColorSchemeToggle } from './ColorSchemeToggle/ColorSchemeToggle';
+import Link from 'next/link';
 
 const useStyles = createStyles((theme) => ({
   link: {
@@ -152,18 +153,16 @@ export function HeaderResponsive() {
         <Group position="apart" sx={{ height: '100%' }}>
           Logo
           <Group sx={{ height: '100%' }} spacing={0} className={classes.hiddenMobile}>
-            <a href="#" className={classes.link}>
+            <Link href="/" className={classes.link}>
               Home
-            </a>
-            <a href="#" className={classes.link}>
-              Services
-            </a>
-            <a href="#" className={classes.link}>
-              About Us
-            </a>
-            <a href="#" className={classes.link}>
+            </Link>
+        
+            <Link href="/contactUs" className={classes.link}>
               Contact Us
-            </a>
+            </Link>
+            <Link href="/FAQ" className={classes.link}>
+              FAQ
+            </Link>
           </Group>
           <Group className={classes.hiddenMobile}>
             <ColorSchemeToggle />
