@@ -183,14 +183,14 @@ export function HeaderResponsive() {
         <ScrollArea h={`calc(100vh - ${rem(60)})`} mx="-md">
           <Divider my="sm" color={theme.colorScheme === 'dark' ? 'dark.5' : 'gray.1'} />
 
-          <Link href="/" className={classes.link}>
+          <Link href="/" className={classes.link} onClick={closeDrawer}>
               Home
             </Link>
         
-            <Link href="/contactUs" className={classes.link}>
+            <Link href="/contactUs" className={classes.link} onClick={closeDrawer}> 
               Contact Us
             </Link>
-            <Link href="/FAQ" className={classes.link}>
+            <Link href="/FAQ" className={classes.link} onClick={closeDrawer}>
               FAQ
             </Link>
 
