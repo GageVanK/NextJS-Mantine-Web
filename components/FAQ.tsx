@@ -1,4 +1,5 @@
-import { Container, Title, Accordion, createStyles, rem } from '@mantine/core';
+import { Container, Title, Accordion, createStyles, rem} from '@mantine/core';
+
 
 const useStyles = createStyles((theme) => ({
   wrapper: {
@@ -26,10 +27,13 @@ const placeholder =
 export function FAQ() {
   const { classes } = useStyles();
   return (
+    
+
     <Container size="sm" className={classes.wrapper}>
       <Title align="center" className={classes.title}>
         Frequently Asked Questions
       </Title>
+
 
       <Accordion variant="separated">
         <Accordion.Item className={classes.item} value="reset-password">
@@ -58,5 +62,6 @@ export function FAQ() {
         </Accordion.Item>
       </Accordion>
     </Container>
+
   );
 }

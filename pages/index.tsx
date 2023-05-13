@@ -30,7 +30,7 @@ export default function HomePage() {
         <StatBox />
         <Space h="md" />
         <FAQ />
-        <Space h="md" />
+        
         <ContactUsBox />
         <Space h="md" />
       </Container>
